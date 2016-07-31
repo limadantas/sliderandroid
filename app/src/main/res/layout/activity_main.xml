@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.oceanmanaus.sliderandroid.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/broker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/broker"/>
+
+    <EditText
+        android:id="@+id/topico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/topico"/>
+
+    <Button
+        android:id="@+id/conectar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/conectar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btn_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/left"
+            android:layout_marginRight="5dp"/>
+        <ImageView
+            android:id="@+id/btn_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/right"
+            android:layout_marginLeft="5dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
